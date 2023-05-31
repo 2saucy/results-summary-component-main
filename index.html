@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Hanken+Grotesk"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <div class="result">
+          <h2>Your Result</h2>
+          <div class="circle">
+            <h1>76</h1>
+            <p>of 100</p>
+          </div>
+          <div class="message">
+            <h3>Great</h3>
+            <p>
+              You scored higher than 65% of the people who haven taken these
+              test
+            </p>
+          </div>
+        </div>
+        <div class="summary">
+          <h2>Summary</h2>
+          <div id="categories"></div>
+          <button class="continue-btn">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/2saucy">guchooo</a>.
+    </div>
+
+    <!-- JSON File -->
+    <script src="data.json" id="json-data"></script>
+    <!-- JS File -->
+    <script type="module" src="js/scripts.js"></script>
+  </body>
+</html>
